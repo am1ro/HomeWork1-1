@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="text"
+              android:hint="Текст"
+              android:layout_gravity="center"
+              android:textSize="24sp"
+              android:layout_margin="10dp"
+              android:textColor="@color/purple_500"/>
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="textPersonName"
+              android:hint="textPersonName"
+              android:layout_gravity="center"
+              android:layout_margin="10dp"
+              android:textSize="24sp"
+              android:textColor="@color/teal_700"/>
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="phone"
+              android:layout_margin="10dp"
+              android:layout_gravity="center"
+              android:textSize="24sp"
+              android:hint="you phone number"
+              android:textColor="@color/teal_200"/>
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="number"
+              android:layout_gravity="center"
+              android:layout_margin="10dp"
+              android:textSize="24sp"
+              android:hint="number"
+              android:textColor="@color/purple_500"/>
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="textPassword"
+              android:hint="you password"
+              android:layout_gravity="center"
+              android:layout_margin="10dp"
+              android:textSize="24sp"
+              android:textColor="@color/teal_700"/>
+
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:inputType="textEmailAddress"
+              android:hint="you email"
+              android:layout_gravity="center"
+              android:layout_margin="10dp"
+              android:textSize="24sp"
+              android:textColor="@color/purple_500"
+    />
+<CalendarView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"/>
+
+
+</LinearLayout>
